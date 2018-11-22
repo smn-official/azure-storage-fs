@@ -1,0 +1,67 @@
+{
+  "_from": "git+https://github.com/italoandrade/azure-storage-fs.git",
+  "_id": "azure-storage-fs@0.3.0",
+  "_inBundle": false,
+  "_location": "/azure-storage-fs",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "azure-storage-fs@git+https://github.com/italoandrade/azure-storage-fs.git",
+    "name": "azure-storage-fs",
+    "escapedName": "azure-storage-fs",
+    "rawSpec": "git+https://github.com/italoandrade/azure-storage-fs.git",
+    "saveSpec": "git+https://github.com/italoandrade/azure-storage-fs.git",
+    "fetchSpec": "https://github.com/italoandrade/azure-storage-fs.git",
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "git+https://github.com/italoandrade/azure-storage-fs.git#b2af75bfcc76fd24063c4e19341a3ce79e1efa79",
+  "_spec": "azure-storage-fs@git+https://github.com/italoandrade/azure-storage-fs.git",
+  "_where": "C:\\Users\\Ghilherme\\Desktop\\Repositorios\\ares\\ares-api-financeiro-scripts\\aresapifinanceiro",
+  "bugs": {
+    "url": "https://github.com/compulim/azure-storage-fs/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "debug": "^2.6.3"
+  },
+  "deprecated": false,
+  "description": "A drop-in \"fs\" replacement for accessing Azure Storage with Node.js \"fs\" API",
+  "devDependencies": {
+    "mocha": "^3.2.0",
+    "node-fetch": "^1.6.3",
+    "promise-retry": "^1.1.1"
+  },
+  "homepage": "https://github.com/compulim/azure-storage-fs#readme",
+  "keywords": [
+    "azure",
+    "blob",
+    "cloud",
+    "fs",
+    "microsoft",
+    "saas",
+    "smb",
+    "storage",
+    "windows"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "azure-storage-fs",
+  "optionalDependencies": {
+    "debug": "^2.6.3"
+  },
+  "peerDependencies": {
+    "azure-storage": "^2.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/compulim/azure-storage-fs.git"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "version": "0.3.0"
+}
